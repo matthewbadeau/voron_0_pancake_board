@@ -474,7 +474,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "v0_miniAB_pancake_board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
