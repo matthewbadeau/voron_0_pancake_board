@@ -2182,7 +2182,7 @@
   (gr_text "PANCAKE BOARD" (at 101.187048 89.991027) (layer "F.SilkS") (tstamp 355ced6c-c08a-4586-9a09-7a9c624536f6)
     (effects (font (size 2 2) (thickness 0.3)))
   )
-  (gr_text "fork by: me\n2022" (at 100.8888 104.8512) (layer "F.SilkS") (tstamp 59ba1b9f-bf3f-4f25-ba4a-9b773e9cbf5c)
+  (gr_text "fork by: matthew & @famichu\n2022" (at 100.8888 104.8512) (layer "F.SilkS") (tstamp 59ba1b9f-bf3f-4f25-ba4a-9b773e9cbf5c)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "SWITCH1\n" (at 80.6 99 90) (layer "F.SilkS") (tstamp 631c7be5-8dc2-4df4-ab73-737bb928e763)
