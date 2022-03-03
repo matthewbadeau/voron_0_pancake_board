@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|87328245|109128947|00000000-0000-0000-0000-000060d529a6|00000000-0000-0000-0000-000060d529d0",
+        "silk_over_copper|77536381|95192068|9c2999b2-1cf1-4204-9d23-243401b77aa3|631c7be5-8dc2-4df4-ab73-737bb928e763",
+        "silk_over_copper|80148710|88915736|00000000-0000-0000-0000-000060d4c8f2|a917c6d9-225d-4c90-bf25-fe8eff8abd3f",
+        "silk_over_copper|81067949|89834975|00000000-0000-0000-0000-000060d4c8f2|89a3dae6-dcb5-435b-a383-656b6a19a316",
+        "silk_over_copper|84505455|113687377|ad4d05f5-6957-42f8-b65c-c657b9a26485|8affbbfc-7a19-4367-8cbf-abdf4e25dcaa",
+        "silk_over_copper|85412990|81369766|15699041-ed40-45ee-87d8-f5e206a88536|7233cb6b-d8fd-4fcd-9b4f-8b0ed19b1b12",
+        "silk_over_copper|86077235|81407821|15699041-ed40-45ee-87d8-f5e206a88536|df83f395-2d18-47e2-a370-952ca41c2b3a",
+        "silk_over_copper|87219785|81844662|402c62e6-8d8e-473a-a0cf-2b86e4908cd7|b54cae5b-c17c-4ed7-b249-2e7d5e83609a",
+        "silk_over_copper|88139024|82763901|402c62e6-8d8e-473a-a0cf-2b86e4908cd7|26bc8641-9bca-4204-9709-deedbe202a36",
+        "silk_over_copper|89609871|82819137|26a22c19-4cc5-4237-9651-0edc4f854154|761c8e29-382a-475c-a37a-7201cc9cd0f5",
+        "silk_over_copper|89768542|82872599|26a22c19-4cc5-4237-9651-0edc4f854154|1cc5480b-56b7-4379-98e2-ccafc88911a7",
+        "silk_over_copper|96988027|109590427|92f063a3-7cce-4a96-8a3a-cf5767f700c6|69b756a3-12a8-42b0-8021-0e5a4af9ef03"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -492,7 +505,7 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
+      "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
